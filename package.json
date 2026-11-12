@@ -1,0 +1,20 @@
+{
+  "name": "canopy-fps",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "icons": "node scripts/make-icons.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": { "three": "^0.187.0" },
+  "devDependencies": {
+    "@types/three": "*",
+    "typescript": "*",
+    "vite": "*",
+    "vite-plugin-singlefile": "*"
+  }
+}
